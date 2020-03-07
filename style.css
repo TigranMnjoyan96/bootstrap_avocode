@@ -169,5 +169,22 @@ footer {
       margin: 23px auto; }
     .offer .icons {
       margin: 41px auto; } }
+@media screen and (max-width: 570px) {
+  .menu_items {
+    flex-direction: column;
+    align-items: center; }
+    .menu_items li {
+      margin-top: 20px; }
+      .menu_items li:nth-child(3) {
+        margin-top: 10px; } }
+@media screen and (max-width: 480px) {
+  .offer {
+    width: auto !important; }
+    .offer .offer_intro, .offer .offer_intro_two {
+      width: auto !important; } }
+@media screen and (max-width: 360px) {
+  .i_pad_png {
+    width: 100%;
+    background-color: green; } }
 
 /*# sourceMappingURL=style.css.map */
