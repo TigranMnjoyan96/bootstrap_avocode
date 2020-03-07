@@ -196,7 +196,20 @@ footer {
 
 @media screen and(max-width: 360px) {
     .i_pad_png {
-        width: 100%;
-        background-color: green;
+        img {
+            width: 100%;
+        }
     }
+    .enter__your__mail {
+        form {
+            flex-direction: column;
+            input {
+                width: auto;
+            }
+            button {
+                width: 100%;
+                margin-left: 0;
+            }
+    }
+}
 }

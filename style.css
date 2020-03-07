@@ -183,8 +183,15 @@ footer {
     .offer .offer_intro, .offer .offer_intro_two {
       width: auto !important; } }
 @media screen and (max-width: 360px) {
-  .i_pad_png {
-    width: 100%;
-    background-color: green; } }
+  .i_pad_png img {
+    width: 100%; }
+
+  .enter__your__mail form {
+    flex-direction: column; }
+    .enter__your__mail form input {
+      width: auto; }
+    .enter__your__mail form button {
+      width: 100%;
+      margin-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */
