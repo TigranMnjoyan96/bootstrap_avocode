@@ -24,7 +24,6 @@ h1,
 h2 {
     font-weight: bold;
 }
-
 @media screen and (max-width: 920px) {
     .menu_items {
         ul {
@@ -114,13 +113,13 @@ footer {
         margin: 0 auto;
         text-align: center;
         h2 {
-        @include font(32px, $backcol, 700, 0);
-    }
-    p {
-        @include font(20px, #898989, 400, 0);
-        line-height: 24px;
-        margin: 17px 0 41px;
-    }
+            @include font(32px, $backcol, 700, 0);
+        }
+        p {
+            @include font(20px, #898989, 400, 0);
+            line-height: 24px;
+            margin: 17px 0 41px;
+        }
     }
     .enter__your__mail {
         text-align: center;
@@ -147,7 +146,7 @@ footer {
             line-height: 24px;
         }
     }
-    
+
 }
 
 .halo_vietnam {
@@ -160,13 +159,18 @@ footer {
     }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and(max-width: 820px) {
+    .logo_png {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
     .menu_items {
-            li {
-                a {
-                    font-size: 55px;
-                    color: fuchsia;
-                }
-            }
+        a {
+            // display: block;
+            // margin: 0 auto;
+            // text-align: center;
+        }
     }
 }
