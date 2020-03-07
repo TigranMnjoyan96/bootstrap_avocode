@@ -19,12 +19,9 @@ h1,
 h2 {
   font-weight: bold; }
 
-.logo_png span {
-  font-size: 33px;
-  color: #010101;
-  font-weight: 700;
-  letter-spacing: 0; }
-
+@media screen and (max-width: 920px) {
+  .menu_items ul li a {
+    font-size: 55px; } }
 .offer {
   margin-top: 117px; }
   .offer .offer_intro {
@@ -158,5 +155,10 @@ footer {
     color: #ffffff;
     font-weight: 400;
     letter-spacing: 0; }
+
+@media screen and (max-width: 920px) {
+  .menu_items li a {
+    font-size: 55px;
+    color: fuchsia; } }
 
 /*# sourceMappingURL=style.css.map */

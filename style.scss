@@ -25,9 +25,15 @@ h2 {
     font-weight: bold;
 }
 
-.logo_png {
-    span {
-        @include font(33px, $col, 700, 0);
+@media screen and (max-width: 920px) {
+    .menu_items {
+        ul {
+            li {
+                a {
+                    font-size: 55px;
+                }
+            }
+        }
     }
 }
 .offer {
@@ -151,5 +157,16 @@ footer {
     text-align: center;
     p {
         @include font(16px, #ffffff, 400, 0);
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .menu_items {
+            li {
+                a {
+                    font-size: 55px;
+                    color: fuchsia;
+                }
+            }
     }
 }
