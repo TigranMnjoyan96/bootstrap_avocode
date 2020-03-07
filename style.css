@@ -15,7 +15,8 @@ header {
         font-weight: 700;
         letter-spacing: 1px; }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: bold; }
 
 .logo_png span {
@@ -52,7 +53,7 @@ h1, h2 {
         color: #010101;
         font-weight: 400;
         letter-spacing: 0;
-        transition: .3s all ease; }
+        transition: 0.3s all ease; }
         .offer .icons li a i:hover {
           color: green; }
 
@@ -60,5 +61,102 @@ h1, h2 {
   text-align: center;
   margin-top: 67px;
   margin-bottom: 107px; }
+
+.features_block {
+  margin: 104px auto 0;
+  padding-bottom: 90px;
+  text-align: center; }
+
+.features_title {
+  text-align: center; }
+  .features_title h2 {
+    font-size: 32px;
+    color: #010101;
+    font-weight: 700;
+    letter-spacing: 0; }
+  .features_title p {
+    margin: 17px auto;
+    font-size: 20px;
+    color: #313841;
+    font-weight: 400;
+    letter-spacing: 0; }
+
+.feature__grid {
+  margin-bottom: 87px; }
+  .feature__grid .feature__block {
+    margin-left: 34px; }
+    .feature__grid .feature__block h3 {
+      font-size: 33px;
+      color: #010101;
+      font-weight: 400;
+      letter-spacing: 0; }
+    .feature__grid .feature__block p {
+      font-size: 16px;
+      color: #898989;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 20px; }
+  .feature__grid i {
+    font-size: 50px;
+    color: #010101;
+    font-weight: 400;
+    letter-spacing: 0; }
+
+footer {
+  background-color: #232527;
+  padding: 96px 0 105px; }
+  footer .keep__in__touch {
+    margin: 0 auto;
+    text-align: center; }
+    footer .keep__in__touch h2 {
+      font-size: 32px;
+      color: #fcdb01;
+      font-weight: 700;
+      letter-spacing: 0; }
+    footer .keep__in__touch p {
+      font-size: 20px;
+      color: #898989;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 24px;
+      margin: 17px 0 41px; }
+  footer .enter__your__mail {
+    text-align: center; }
+    footer .enter__your__mail input {
+      width: 580px;
+      background-color: #ffffff;
+      height: 50px;
+      border-radius: 5px;
+      outline: none;
+      padding: 18px 0 16px 24px;
+      border: none; }
+      footer .enter__your__mail input::placeholder {
+        font-size: 16px;
+        color: #898989;
+        font-weight: 400;
+        letter-spacing: 0; }
+    footer .enter__your__mail button {
+      width: 125px;
+      margin-left: 21px;
+      border: 2px solid #010101;
+      background-color: #fcdb01;
+      height: 50px;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #010101;
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 24px; }
+
+.halo_vietnam {
+  width: 178px;
+  height: 55px;
+  margin: 55px auto;
+  text-align: center; }
+  .halo_vietnam p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 0; }
 
 /*# sourceMappingURL=style.css.map */

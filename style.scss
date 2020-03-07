@@ -1,12 +1,11 @@
 @import './scss/vars.scss';
 @import './scss/mixin.scss';
 
-
 header {
     background-color: $backcol;
     font-family: $family;
     padding-top: 55px;
-    
+
     .menu_items {
         margin-top: 15px;
         li {
@@ -19,9 +18,10 @@ header {
                 @include font(22px, $col, 700, 1px);
             }
         }
-    } 
+    }
 }
-h1, h2 {
+h1,
+h2 {
     font-weight: bold;
 }
 
@@ -41,7 +41,7 @@ h1, h2 {
     .offer_intro_two {
         @include font(16px, #555555, 400, 0);
         line-height: 20px;
-        margin-top: 23px;   
+        margin-top: 23px;
         width: 440px;
     }
     .icons {
@@ -52,7 +52,7 @@ h1, h2 {
             a {
                 i {
                     @include font(42px, $col, 400, 0);
-                    transition: .3s all ease;
+                    transition: 0.3s all ease;
                     &:hover {
                         color: green;
                     }
@@ -65,4 +65,91 @@ h1, h2 {
     text-align: center;
     margin-top: 67px;
     margin-bottom: 107px;
+}
+
+.features_block {
+    margin: 104px auto 0;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.features_title {
+    text-align: center;
+    h2 {
+        @include font(32px, $col, 700, 0);
+    }
+    p {
+        margin: 17px auto;
+        @include font(20px, #313841, 400, 0);
+
+    }
+}
+.feature__grid {
+    margin-bottom: 87px;
+    .feature__block {
+        margin-left: 34px;
+        h3 {
+            @include font(33px, $col, 400, 0);
+        }
+        p {
+            @include font(16px,#898989, 400, 0);
+            line-height: 20px;
+        }
+    }
+    i {
+        @include font(50px, $col, 400, 0);
+    }
+
+}
+
+footer {
+    background-color: #232527;
+    padding: 96px 0 105px;
+    .keep__in__touch {
+        margin: 0 auto;
+        text-align: center;
+        h2 {
+        @include font(32px, $backcol, 700, 0);
+    }
+    p {
+        @include font(20px, #898989, 400, 0);
+        line-height: 24px;
+        margin: 17px 0 41px;
+    }
+    }
+    .enter__your__mail {
+        text-align: center;
+        input {
+            width: 580px;
+            background-color: #ffffff;
+            height: 50px;
+            border-radius: 5px;
+            outline: none;
+            padding: 18px 0 16px 24px;
+            border: none;
+            &::placeholder {
+                @include font(16px, #898989, 400, 0);
+            }
+        }
+        button {
+            width: 125px;
+            margin-left: 21px;
+            border: 2px solid #010101;
+            background-color: $backcol;
+            height: 50px;
+            border-radius: 5px;
+            @include font(16px, #010101, 700, 0);
+            line-height: 24px;
+        }
+    }
+    
+}
+
+.halo_vietnam {
+    width: 178px;
+    height: 55px;
+    margin: 55px auto;
+    text-align: center;
+    p {
+        @include font(16px, #ffffff, 400, 0);
+    }
 }
