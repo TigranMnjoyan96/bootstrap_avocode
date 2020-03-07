@@ -1,0 +1,13 @@
+@mixin display($disp, $contt, $align, $self) {
+    display: $disp;
+    justify-content: $contt;
+    align-items: $align;
+    align-self: $self;
+}
+
+@mixin font($size, $col, $weight, $space) {
+    font-size: $size;
+    color: $col;
+    font-weight: $weight;
+    letter-spacing: $space;
+}
